@@ -1,0 +1,197 @@
+.root{
+    padding: 30px;
+}
+.allcards{
+    background: linear-gradient(25deg, #999, #999)!important;
+}
+.firstcard{
+    background-color: #007bff!important;
+}
+.nextcard{
+    background-color: rgb(253, 183, 49)!important;
+}
+.thirdcard{
+    background-color: #fff!important;
+    color: black!important;
+}
+.fthcard{
+   background-color: rgb(48, 140, 103)!important;
+}
+.card{ 
+    border-radius: 14.5px;
+    color: #fff;
+    height: 182.873px;
+    width: 290px;
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+.backcard{ 
+    border-radius: 14.5px;
+    color: #fff;
+    height: 182.873px;
+    width: 290px;
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+.thirdcard::placeholder{
+    color: black!important;
+}
+.mytext{
+    border:none;
+    font-size: 25px;
+    color: #fff;
+    padding: 0%;
+    line-height: 0%;
+    text-transform: uppercase;
+}
+.mytext1{
+    border:none;
+    font-size: 20px;
+    color: #fff;
+    padding: 0%;
+    line-height: 1%;
+    text-transform: uppercase;
+}
+.mytext::placeholder{
+    color: #fff;
+    opacity: 0.5;
+    font-size: 20px;
+
+}
+.mytext1::placeholder{
+    color: white!important;
+    opacity: 0.5;
+    font-size: 20px;
+
+}
+.chip {
+    height: 26.36364px;
+    width: 41.42857px;
+    left: 10%;
+    position: absolute;
+    top: 10%;
+}
+.dots{
+    color: linear-gradient(25deg, #999, #999);
+    font-size: 25px;
+    font-weight: 700;
+    left: 10%;
+    position: absolute;
+    top: 45%;
+}
+.userName{
+    position: absolute;
+    text-align: left;
+    padding: 0%;
+    bottom: 50px;
+    font-family: Consolas, Courier, monospace;
+    font-size: 25px;
+    left: 10%;
+    width:60%;
+    height:5%;
+}
+.validity{
+    color: linear-gradient(25deg, #999, #999);
+    position: absolute;
+    font-size: 12px;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    line-height: 1;
+    right: 10px;
+    bottom: 22%;
+    opacity: 0.5;
+}
+.date{
+    bottom: 30%;
+    height:2%;
+    padding: 0px;
+    position: absolute;
+    right: 0px;
+    color: #fff;
+    font-size: 16px;
+    width:25%;
+
+}
+form {
+    margin: 30px auto 0;
+    max-width: 400px;
+}
+.form-actions {
+    margin-top: 15px;
+}
+.stripe{
+    background-color: #2a1d16;
+    height: 22%;
+    left: 0;
+    position: absolute;
+    top: 9%;
+    width: 100%;
+}
+.signature{
+    background: repeating-linear-gradient(0.1deg, #fff 20%, #fff 40%, #fea 40%, #fea 44%, #fff 44%);
+    height: 18%;
+    left: 5%;
+    position: absolute;
+    top: 35%;
+    width: 75%;
+}
+.cardno{
+    font-weight: 700;
+    opacity: 1 !important;
+    color: #222;
+    font-family: Consolas, Courier, monospace;
+    font-size: 14px;
+    left: 67%;
+    line-height: 1;
+    position: absolute;
+    top: 42%;
+}
+
+.firstlogo{
+    background: url(../images/visa.svg)no-repeat right top; 
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 23%;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    width: 40%;
+
+}
+.nextlogo{
+    background: url(../images/mastercard.svg)no-repeat right top; 
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 23%;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    width: 40%;
+    
+}
+.thirdlogo{
+    background: url(../images/dinners.svg)no-repeat right top; 
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 23%;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    width: 40%;
+    
+}
+.fthlogo{
+    background: url(../images/american.svg)no-repeat right top; 
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 23%;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    width: 40%;
+    
+}
